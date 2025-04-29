@@ -8,4 +8,4 @@ For our final project, we plan to use a heart disease dataset from Kaggle to bui
 2. Clone the repository to your local computer
 3. Open up the terminal and build the Docker image. Run this command: docker build -t finalproj:0.0.1 .
 4. Run the Docker container with this command: docker run -v {ENTER YOUR FILE PATH TO THE REPOSITORY}:/home -p 8888:8888 --name projcont finalproj:0.0.1
-5. Open the Jupyter notebook and run the report!
+5. Make sure you are connected to the internet, open the Jupyter notebook, and run the cells in the notebook!
