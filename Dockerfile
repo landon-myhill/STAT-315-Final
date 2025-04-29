@@ -34,7 +34,3 @@ RUN pip install --upgrade pip && pip install --no-cache-dir \
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=''"]
 
 COPY STAT315_Project.ipynb /app
-
-# Add the Jupyter config file to the container
-# RUN jupyter notebook --generate-config && \
-#     echo "c.NotebookApp.notebook_dir = '/home'" >> /root/.jupyter/jupyter_notebook_config.py
